@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Galaxy s10</h5>
+                        <p class="card-text">10,000,000 vnđ</p>
+                        <a data-id="A123" onclick="addToCart(event)" href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">iphone x</h5>
+                        <p class="card-text">20,000,000 vnđ</p>
+                        <a data-id="A124" onclick="addToCart(event)" href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nokia</h5>
+                        <p class="card-text">15,000,000 vnđ</p>
+                        <a data-id="A125" onclick="addToCart(event)" href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nexus</h5>
+                        <p class="card-text">9,000,000 vnđ</p>
+                        <a data-id="A126" onclick="addToCart(event)" href="#" class="btn btn-primary">Thêm vào giỏ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Danh sách giỏ hàng</h1>
+
+                <ol id="cart-list"></ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
